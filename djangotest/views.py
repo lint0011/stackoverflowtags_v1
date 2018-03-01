@@ -9,7 +9,7 @@ def home(request):
     Tags = tags.objects.all()
     
     #return render(request, 'home.html',{'tags':Tags})
-    return render(request, 'home.html',{'tag':Tags})
+    return render(request, 'home.html',{'tags':Tags})
 
 def tag_detail(request, id):
     try:

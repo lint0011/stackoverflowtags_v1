@@ -25,7 +25,7 @@ SECRET_KEY = '@9_mix@!muw&k2eek@h15xup-z_u&b943q!uit6yv*hy_=_b&)'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['https://similartagsheroku.herokuapp.com/']
+ALLOWED_HOSTS = [#'similartagsheroku.herokuapp.com/',]
 
 
 # Application definition
@@ -78,11 +78,11 @@ WSGI_APPLICATION = 'stackoverflowtags.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'd499fl8jkqgj0o',
-        'HOST':'ec2-54-243-31-34.compute-1.amazonaws.com',
-        'USER':'vocszpuquitroq',
+        'NAME': 'djangotest',
+        'HOST':'',
+        'USER':'lint0011',
         'PORT':'5432',
-        'PASSWORD':'7217399a47bde7a83f5caa1e6db165677e23fe94222e7cb8f05f8350421f4f54',
+        'PASSWORD':'L56530304t',
         
 
     }
